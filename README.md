@@ -50,6 +50,7 @@ new CSKatkaSteamers({
 	translate: 'ru',
 	type: 'classic',
 	theme: 'dark',
+	game: 'csgo',
 	commaSeparation: true,
 	displayAuthorPhoto: true,
 	displayFlags: true,
@@ -67,8 +68,37 @@ new CSKatkaSteamers({
 | translate             |        | Перевод виджета на другой язык. На данный момент доступены следующие языки: ‘ru’ (русский) и ‘en’ (английский). Стадартное значение: «ru» — Русский.            |
 | type                  |        | Тип виджета. Классический (classic) — отображается аватар стримера, первью (preview) — отображается обложка самого стрима. Стандартное значение - "classic"     |
 | theme					|	     | Тема виджета (темная или светлая). Стандартной значение - "dark". Возможные варианты: "dark" или "white".                                                       |
+| game                  |        | Установить по какой игре будут показаны онлайн стримеры. Стандартной значение: "csgo" (Counter Strike: Global Offensive)                                        |
 | commaSeparation       |        | Разделять число зрителей запятой или нет. По умолчанию: «true». Где «true» — это число «300000» формируется в «300,000», а при «false» остается первоначальное. |
 | displayAuthorPhoto    |        | Отображать фото автора стрима. По умолчанию: «true». Где «true» — да, «false» — нет.                                                                            |
 | displayFlags          |        | Отображать флаг страны стримера или нет. По умолчанию: «true». Где «true» — да, «false» — нет.                                                                  |
 | displayLiveMessage    |        | Отображать «LIVE» сообщение или нет. По умолчанию: «true». Где «true» — отображать «LIVE» и «false» — нет.                                                      |
 | displayPreloadingText |        | Показывать сообщение о загрузке стримеров по типу «Загрузка стримеров..» или нет . По умолчанию: «true» — не показывать, «false» — показывать                   |
+
+## `game` параметр 
+
+Слева в столбце указан возможный вариант значения для `game` параметра. В правом столбце — расшифровка. 
+
+Например, если вы укажите `game: 'csgo'` тогда у вас будут показаны все игры по Counter-Strike: Global Offensive.
+
+| Короткое название | Полное название          | 
+|-------------------|--------------------------|
+| csgo | Counter-Strike: Global Offensive |
+| lol | League of Legends |
+| hstone | Hearthstone |
+| rus | Rust |
+| dota2 | Dota 2 |
+| fifa1 | FIFA 17 |
+| tshows | Talk Shows |
+| kingofkill | H1Z1: King of the Kill |
+| overwatch | Overwatch |
+| wow | World of Warcraft |
+| honor | For Honor |
+| creative | Creative |
+| minecraft | Minecraft |
+| arma3 | Arma 3 |
+| poker | Poker |
+| clashroyal | Clash Royale |
+| worldoftanks | World of Tanks |
+| nioh | Nioh |
+| tomclancy | Tom Clancy\'s Rainbow Six: Siege |
