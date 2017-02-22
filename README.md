@@ -38,19 +38,21 @@ new CSKatkaSteamers({
 # Документация 
 Всевозможные настройки виджета выглядит следующим образом.
 
-```
-appId: '',
-container: '#cskatka-streamers', 
-limit: 5, 
-streamer_language: '',
-translate: 'ru',
-type: 'classic',
-theme: 'dark',
-commaSeparation: true,
-displayAuthorPhoto: true,
-displayFlags: true,
-displayLiveMessage: true,
-displayPreloadingText: true
+```js
+new CSKatkaSteamers({ 
+	appId: '',
+	container: '#cskatka-streamers', 
+	limit: 5, 
+	streamer_language: '',
+	translate: 'ru',
+	type: 'classic',
+	theme: 'dark',
+	commaSeparation: true,
+	displayAuthorPhoto: true,
+	displayFlags: true,
+	displayLiveMessage: true,
+	displayPreloadingText: true
+});
 ```
 
 | Параметр              | Важный?| Описание                                                                                                                                                        |
