@@ -86,9 +86,9 @@ new CSKatkaSteamers({
 | csgo | Counter-Strike: Global Offensive |
 | lol | League of Legends |
 | hstone | Hearthstone |
-| rus | Rust |
+| rust | Rust |
 | dota2 | Dota 2 |
-| fifa1 | FIFA 17 |
+| fifa17 | FIFA 17 |
 | tshows | Talk Shows |
 | kingofkill | H1Z1: King of the Kill |
 | overwatch | Overwatch |
