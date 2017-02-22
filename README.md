@@ -101,4 +101,4 @@ new CSKatkaSteamers({
 | clashroyal | Clash Royale |
 | worldoftanks | World of Tanks |
 | nioh | Nioh |
-| tomclancy | Tom Clancy\'s Rainbow Six: Siege |
+| tomclancy | Tom Clancy's Rainbow Six: Siege |
