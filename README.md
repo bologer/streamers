@@ -17,7 +17,7 @@
 ```html 
 <script>
 new CSKatkaSteamers({ 
-  appId: ВАШЕ_APP_ID, 
+  appId: ВАШ_APP_ID, 
 }); 
 </script>
 ```
