@@ -2,6 +2,8 @@
 
 Подключить библиотеку отвечающая за получение и отображение стримеров с [Twitch.tv](https://twitch.tv/).
 
+> Виджет автоматически обновляет данные о онлайн стримерах каждую минуту. 
+
 ```html
 <script src="//cskatka.ru/api/streamers/js/api.js?1"></script>
 ```
@@ -33,7 +35,7 @@ new CSKatkaSteamers({
 <div id="cskatka-streamers"></div>
 <script>
 new CSKatkaSteamers({ 
-  appId: ВАШЕ_APP_ID, 
+  appId: ВАШ_APP_ID, 
 }); 
 </script>
 ```
